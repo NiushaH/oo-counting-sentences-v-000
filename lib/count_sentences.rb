@@ -19,10 +19,18 @@ class String
   end
 
   def exclamation?
-
+    if self.end_with?("!")
+      return true 
+    elsif !self.end_with?("!")
+      return false 
+    end 
   end
 
   def count_sentences
-
+    if self.end_with?(".")
+      return true 
+    elsif !self.end_with?(".")
+      return false 
+    end 
   end
 end
