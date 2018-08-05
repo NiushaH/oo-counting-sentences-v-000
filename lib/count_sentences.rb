@@ -27,9 +27,9 @@ class String
   end
 
   def count_sentences
-    if self.end_with?(".")
+    if self.count_sentences
       return true 
-    elsif !self.end_with?(".")
+    elsif !self.count_sentences
       return false 
     end 
   end
