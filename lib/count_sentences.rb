@@ -28,9 +28,7 @@ class String
 
   def count_sentences
     if self.count_sentences
-      return true 
-    elsif !self.count_sentences
-      return false 
+      return 
     end 
   end
 end
